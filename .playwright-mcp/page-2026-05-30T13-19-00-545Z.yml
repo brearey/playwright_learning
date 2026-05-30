@@ -1,0 +1,23 @@
+- generic [ref=e2]:
+  - region "Notifications Alt+T":
+    - alert [ref=e27]:
+      - img [ref=e29]
+      - text: Request failed with status code 500
+      - button "close" [ref=e31] [cursor=pointer]:
+        - img [ref=e32]
+      - progressbar "notification timer" [ref=e36]
+  - generic [ref=e12]:
+    - img "uvezus logo" [ref=e14]
+    - heading "Войдите с помощью почты" [level=1] [ref=e15]
+    - generic [ref=e16]:
+      - generic [ref=e17]: "Введите вашу почту:"
+      - textbox "Введите вашу почту:" [ref=e18]:
+        - /placeholder: your@email.ru
+        - text: brearey4@gmail.com
+      - generic [ref=e20]: Отправить код повторно через 58 сек.
+      - button "Получить код" [disabled] [ref=e21]
+    - generic [ref=e22]:
+      - generic [ref=e23]: "Введите полученный код здесь:"
+      - textbox "Введите полученный код здесь:" [ref=e24]:
+        - /placeholder: your code...
+      - button "Войти" [disabled] [ref=e25]

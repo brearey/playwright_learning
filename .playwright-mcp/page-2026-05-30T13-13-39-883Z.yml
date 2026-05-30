@@ -1,0 +1,23 @@
+- generic [ref=e2]:
+  - region "Notifications Alt+T":
+    - alert [ref=e25]:
+      - img [ref=e27]
+      - text: Request failed with status code 502
+      - button "close" [ref=e29] [cursor=pointer]:
+        - img [ref=e30]
+      - progressbar "notification timer" [ref=e34]
+  - generic [ref=e10]:
+    - img "uvezus logo" [ref=e12]
+    - heading "Войдите с помощью почты" [level=1] [ref=e13]
+    - generic [ref=e14]:
+      - generic [ref=e15]: "Введите вашу почту:"
+      - textbox "Введите вашу почту:" [ref=e16]:
+        - /placeholder: your@email.ru
+        - text: brearey4@gmail.com
+      - generic [ref=e18]: Отправить код повторно через 58 сек.
+      - button "Получить код" [disabled] [ref=e19]
+    - generic [ref=e20]:
+      - generic [ref=e21]: "Введите полученный код здесь:"
+      - textbox "Введите полученный код здесь:" [ref=e22]:
+        - /placeholder: your code...
+      - button "Войти" [disabled] [ref=e23]

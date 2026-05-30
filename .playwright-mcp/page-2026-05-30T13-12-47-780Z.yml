@@ -1,0 +1,8 @@
+- generic [ref=e2]:
+  - region "Notifications Alt+T"
+  - generic [ref=e3]:
+    - generic [ref=e5]: Веб приложение
+    - generic [ref=e7]: УВЕЗУСЬ
+    - generic:
+      - img "uvezus logo"
+    - generic [ref=e9]: Такси Октемцы - Якутск
